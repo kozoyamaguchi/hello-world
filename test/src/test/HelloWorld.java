@@ -8,7 +8,7 @@ public class HelloWorld {
 		Logger log = Logger.getLogger(test.HelloWorld.class.getName());
 
 		log.info("--- Start ---");
-		log.info("Hello World !");
+		log.info("Hello World !!");
 		for (int i = 0; i < args.length; i++)
 			log.info("arg[" + i + "]=" + args[i]);
 		log.info("--- Finish ---");
